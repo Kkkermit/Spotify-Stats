@@ -1,0 +1,61 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+body {
+	background-color: #121212;
+	color: #ffffff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: "Inter", sans-serif;
+}
+
+.flex {
+	display: flex;
+}
+
+.flex-col {
+	flex-direction: column;
+}
+
+.items-center {
+	align-items: center;
+}
+
+.justify-center {
+	justify-content: center;
+}
+
+.h-screen {
+	height: 100vh;
+}
+
+.bg-green-500 {
+	background-color: #1db954;
+}
+
+.text-white {
+	color: #ffffff;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.text-6xl {
+	font-size: 4rem;
+}
+
+.mb-4 {
+	margin-bottom: 1rem;
+}
+
+.text-2xl {
+	font-size: 1.5rem;
+}
